@@ -1,0 +1,34 @@
+{
+    "name": "JetControls",
+    "maps": [
+        {
+            "name": "Jet",
+            "id": "33062b98-bd48-4adb-98a5-f638f771a4b1",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "PassThrough",
+                    "id": "bf5fabbf-c1d7-4c32-8e96-09a25fb935c1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5350b2f9-217b-47ce-a617-cc38f4dec2c3",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
